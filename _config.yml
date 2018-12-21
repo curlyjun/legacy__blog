@@ -26,7 +26,7 @@ version: 1.0.0
 author:
   name: curlyjun(SEONGJUN PARK)
   description: 풀스택 개발자를 꿈꾸는 사람입니다.
-  gravatar:  # md5 hash of your email address
+  gravatar:  73E6D5BCA29DD715ED98A2F1345CA405 # md5 hash of your email address
   contact:
     #linkedin:  
     github:    https://github.com/curlyjun
@@ -63,3 +63,5 @@ mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 disqus_short_name: 'curlyjun.github.io' # leave blank if you don't want disqus
 
+#Google fonts
+google_fonts: "Nanum+Gothic:400,700"
