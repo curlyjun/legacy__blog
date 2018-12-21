@@ -24,25 +24,27 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: SeongJun Park
-  description: 풀스택 개발자를 꿈꾸는 사람입니다. 😀
+  name: curlyjun(SEONGJUN PARK)
+  description: 풀스택 개발자를 꿈꾸는 사람입니다.
   gravatar:  # md5 hash of your email address
   contact:
-    linkedin:  
+    #linkedin:  
     github:    https://github.com/curlyjun
     # facebook:  <hide>
-    twitter:   
-    weibo:     
-    email: https://tjdwns4850@gmail.com
+    #twitter:   
+    #weibo:     
+    #email: https://tjdwns4850@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
   Home:           
     - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+  Blog:  
+    - '/blog'         
+    #- { Categories: '/blog/categories/' }
+    #- { Tags: '/blog/tags/' }
+    - { Javascript: '/blog/categories/#Javascript'}
+    - { Algorithm: '/blog/categories/#Algorithm'}
   About:          
     - '/about/'
   Github Project: 
@@ -59,5 +61,5 @@ hero:
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+disqus_short_name: 'curlyjun.github.io' # leave blank if you don't want disqus
 
