@@ -47,8 +47,6 @@ nav:
     - { Algorithm: '/blog/categories/#Algorithm'}
   About:          
     - '/about/'
-  Github Project: 
-    - 'http://curlyjun.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
