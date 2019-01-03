@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 003_Reverse Integer
+title: 003_Palindrome Number
 category: Algorithm
-tags: algorithm easy
+tags: algorithm easy leetcode
 comments: true
 
 ---

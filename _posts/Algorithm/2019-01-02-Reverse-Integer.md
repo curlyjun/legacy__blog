@@ -2,7 +2,7 @@
 layout: post
 title: 002_Reverse Integer
 category: Algorithm
-tags: algorithm easy
+tags: algorithm easy leetcode
 comments: true
 ---
 
