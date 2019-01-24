@@ -1,6 +1,6 @@
 ---
 layout: post
-title: *005_Longest Common Prefix
+title: 005_Longest Common Prefix*
 category: Algorithm
 tags: algorithm easy leetcode
 comments: true
