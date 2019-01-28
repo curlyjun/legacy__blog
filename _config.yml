@@ -45,6 +45,7 @@ nav:
     #- { Tags: '/blog/tags/' }
     - { JavaScript: '/blog/categories/#JavaScript'}
     - { Algorithm: '/blog/categories/#Algorithm'}
+    - { etc: '/blog/categories/#etc'}
   About:          
     - '/about/'
 
