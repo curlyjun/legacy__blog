@@ -46,6 +46,7 @@ nav:
     - { JavaScript: '/blog/categories/#JavaScript'}
     - { Algorithm: '/blog/categories/#Algorithm'}
     - { 자료구조: '/blog/categories/#자료구조'}
+    - { TIL: '/blog/categories/#TIL'}
     - { etc: '/blog/categories/#etc'}
   About:          
     - '/about/'
