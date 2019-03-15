@@ -43,12 +43,13 @@ nav:
     - '/blog'         
     #- { Categories: '/blog/categories/' }
     #- { Tags: '/blog/tags/' }
-    - { JavaScript: '/blog/categories/#JavaScript'}
-    - { Algorithm: '/blog/categories/#Algorithm'}
-    - { 자료구조: '/blog/categories/#자료구조'}
-    - { Nodejs: '/blog/categories/#Nodejs'}
-    - { TIL: '/blog/categories/#TIL'}
-    - { etc: '/blog/categories/#etc'}
+    - { JavaScript:   '/blog/categories/#JavaScript'}
+    - { Algorithm:    '/blog/categories/#Algorithm'}
+    - { AWS:          '/blog/categories/#AWS'}
+    - { 자료구조:        '/blog/categories/#자료구조'}
+    - { Nodejs:       '/blog/categories/#Nodejs'}
+    - { TIL:          '/blog/categories/#TIL'}
+    - { etc:          '/blog/categories/#etc'}
   About:          
     - '/about/'
 
