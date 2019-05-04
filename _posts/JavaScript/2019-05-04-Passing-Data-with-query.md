@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NextJS에서 페이지간 Query로 데이터 전송하기
-category: JavaScript, NextJS
+category: JavaScript
 tags: NextJS
 comments: true
 ---
