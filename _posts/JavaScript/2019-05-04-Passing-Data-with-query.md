@@ -52,21 +52,7 @@ Link에는 여러가지 props들이 존재합니다. 이 글에서는 필요한 
 - href : 실제 URL 주소
 - as : masking되어 브라우저의 URL 바에 보여질 주소
 
-```javascript
-import Link from 'next/link';
-
-//..생략
-<Link
-	as={`/admin/q/${quetions._id}` }
-	href={{
-	  pathname: '/admin/question/answer'  
-	  query: { qeustion: JSON.stringify(question) }
-	}}
->
-  <a>{question.title}</a>
-</Link>
-//..생략
-```
+![](/assets/images/post_img/Link.png)
 
 위의 코드와 같이 as를 통해서 라우트 마스킹을 해주면 되는 것 입니다. 이러한 작업을 완료하고 나면 이제 `as`에 작성한 endpoint가 브라우저의 url바에 나타나게 됩니다. 
 
