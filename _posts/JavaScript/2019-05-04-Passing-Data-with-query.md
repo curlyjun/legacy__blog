@@ -10,19 +10,17 @@ comments: true
 
 > 이번에 맡게된 프로젝트에서 NextJS를 사용했고, 사용하면서 페이지간 데이터를 전송할 일이 생겼습니다. 이 때 쿼리를 이용해 데이터를 전송한 방법에 대해 알려드리도록 하겠습니다.
 
-## NextJS
-
-![](/assets/images/post_img/nextJS.jpg)
-
-시작하기에 앞서 [NextJS](https://nextjs.org/)에 대해 간략히 소개하자면 NextJS는 리액트 위에서 동작하는 프레임워크예요. NextJS가 해주는 일은  React의 서버 사이드 렌더링을 쉽게 할 수 있도록 도와주고 코드 스플리팅도 알아서 해줍니다. 이 뿐만 아니라 다양한 장점들이 존재합니다. React에서 서버 사이드 렌더링을 하려면 복잡해지는 부분들이 있어요. 상태 관리를 해주는 Redux같은 것들과 함께 하려면 더욱 더 복잡해지는 부분들이 있습니다. 이러한 복잡한 부분들을 nextjs를 사용해 쉽게 할 수 있게 해줍니다.
-
-
-
 ## 페이지간 데이터 전송은 왜..?
 
 ![](/assets/images/post_img/passingdata.jpg)
 
 프로젝트를 진행하다보니 페이지 이동을 하면서 이전 페이지에 존재하던 데이터를 이동한 페이지에서도 사용하게 되는 경우가 있었습니다. 중복된 데이터를 서버에 요청을 보내 받아오는 거죠. 이러한 부분들을 개선하고자 쿼리에 이동할 페이지에 필요한 모든 정보를 담아보는 시도를 해보았어요. 
+
+## NextJS
+
+![](/assets/images/post_img/nextJS.jpg)
+
+시작하기에 앞서 [NextJS](https://nextjs.org/)에 대해 간략히 소개하자면 NextJS는 리액트 위에서 동작하는 프레임워크예요. NextJS가 해주는 일은  React의 [서버 사이드 렌더링](https://nextjs.org/features/server-side-rendering)을 쉽게 할 수 있도록 도와주고 [코드 스플리팅](https://nextjs.org/#automatic-code-splitting)도 알아서 해줍니다. 이 뿐만 아니라 다양한 장점들이 존재합니다. React에서 서버 사이드 렌더링을 하려면 복잡해지는 부분들이 있어요. 상태 관리를 해주는 Redux같은 것들과 함께 하려면 더욱 더 복잡해지는 부분들이 있습니다. 이러한 복잡한 부분들을 nextjs를 사용해 쉽게 할 수 있게 해줍니다.
 
 
 
@@ -45,7 +43,7 @@ NextJS에서는 크게 두가지 방법으로 페이지 라우팅이 가능합�
 1. Link라는 컴포넌트를 통한 Client Side Route
 2. URL입력, a tag이용 등을 통한 Server Side Route
 
-두 번째는 익숙한 방법일 거라고 생각합니다. NextJS를 사용하지 않아도 접할 수 있는 것들이기 때문이죠. 하지만 Link라는 것은 NextJS에서 제공해주는 컴포넌트입니다. Link 컴포넌트를 사용하면 앞서 말씀드린 원래 URL과 다른 URL을 브라우저 URL 바에 Making해주는  Route Masking이라는 기능을 사용할 수 있습니다.
+두 번째는 익숙한 방법일 거라고 생각합니다. NextJS를 사용하지 않아도 접할 수 있는 것들이기 때문이죠. 하지만 Link라는 것은 NextJS에서 제공해주는 컴포넌트입니다. Link 컴포넌트를 사용하면 앞서 말씀드린 원래 URL과 다른 URL을 브라우저 URL 바에 Masking 해주는 즉, 가면을 쓴 것처럼 **실제와 다른 url을 보여주는 것**이라고 이해하시면 될 것 같습니다. 이를 `Route Masking`이라고 합니다.
 
 Link에는 여러가지 props들이 존재합니다. 이 글에서는 필요한 두 가지만 소개해드도록 하겠습니다.
 
